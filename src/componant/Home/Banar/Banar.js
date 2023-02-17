@@ -16,10 +16,10 @@ const Banar = () => {
 
                             <ul className="nav nav-justified w-50" id="ex1" role="tablist">
                                 <li className="nav-item">
-                                    <button style={{borderRadius:"5px 0 0 0"}} onClick={() => setToggle(true)} type="button" className="btn-style w-100">clint</button>
+                                    <button style={{ borderRadius: "5px 0 0 0" }} onClick={() => setToggle(true)} type="button" className="btn-style w-100">Find a candidate</button>
                                 </li>
                                 <li className="nav-item">
-                                    <button  style={{borderRadius:"0 5px 0 0"}} onClick={() => setToggle(false)} type="button" className="btn-style w-100">job</button>
+                                    <button style={{ borderRadius: "0 5px 0 0" }} onClick={() => setToggle(false)} type="button" className="btn-style w-100">Looking for a job</button>
                                 </li>
                             </ul>
 
@@ -31,42 +31,44 @@ const Banar = () => {
                                     toggle ? <div >
                                         <form class="row g-3">
                                             <div class="col-md-3">
-                                                <input type="text" class="form-control" id="validationDefault01" value="Mark" required />
+                                                <input type="text" class="form-control" id="validationDefault01" placeholder='Web devoloper' required />
                                             </div>
                                             <div class="col-md-3">
-                                                <input type="text" class="form-control" id="validationDefault02" value="Otto" required />
+                                                <input type="text" class="form-control" id="validationDefault02" placeholder='Location' required />
                                             </div>
                                             <div class="col-md-3">
                                                 <select class="form-select" aria-label="Default select example">
-                                                    <option selected>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
+                                                    <option selected>Catagory</option>
+                                                    <option value="1">Full Time</option>
+                                                    <option value="2">Partime</option>
+                                                    <option value="3">Internship</option>
+                                                    <option value="3">Temporary</option>
                                                 </select>
                                             </div>
                                             <div className='col-md-3'>
-                                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                                                <button type="button" class="btn btn-outline-primary">Search</button>
                                             </div>
                                         </form>
 
                                     </div> : <div>
                                         <form class="row g-3">
                                             <div class="col-md-3">
-                                                <input type="text" class="form-control" id="validationDefault01" value="Mark" required />
+                                                <input type="text" class="form-control" id="validationDefault01" placeholder='ms mark' required />
                                             </div>
                                             <div class="col-md-3">
-                                                <input type="text" class="form-control" id="validationDefault02" value="Otto" required />
+                                                <input type="text" class="form-control" id="validationDefault02" placeholder='Location' required />
                                             </div>
                                             <div class="col-md-3">
                                                 <select class="form-select" aria-label="Default select example">
-                                                    <option selected>Open this select menu</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
+                                                    <option selected>Catagory</option>
+                                                    <option value="1">Full Time</option>
+                                                    <option value="2">Partime</option>
+                                                    <option value="3">Internship</option>
+                                                    <option value="3">Temporary</option>
                                                 </select>
                                             </div>
                                             <div className='col-md-3'>
-                                                <button type="button" class="btn btn-outline-primary">Primary</button>
+                                                <button type="button" class="btn btn-outline-primary">Search</button>
                                             </div>
                                         </form>
                                     </div>
