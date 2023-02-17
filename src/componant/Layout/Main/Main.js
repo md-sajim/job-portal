@@ -7,7 +7,9 @@ const Main = () => {
     return (
         <div>
             <Navber></Navber>
-            <Outlet></Outlet>
+            <div style={{ marginTop: "210px"}}>
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
         </div>
     );

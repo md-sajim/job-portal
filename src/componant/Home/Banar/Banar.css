@@ -1,0 +1,26 @@
+#banar-container{
+    background-image:
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.30), rgba(117, 19, 93, 1)),
+    url('../../asset/linkedin_job_posting2x-1.png');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    color: white;
+}
+
+
+/* Backgrount style */
+.bg-style{
+    background-color: rgba(220, 220, 220, 0.708);
+    /* border: 1px solid rgba(0, 0, 0, 0.559); */
+    border-radius: 0 5px 5px 5px;
+}
+.btn-style{
+    background-color: gainsboro;
+    padding: 5px;
+    /* border: 1px solid rgba(0, 0, 0, 0.559); */
+    border: 0;
+}
+.btn-style:hover{
+    background-color: aliceblue;
+}
