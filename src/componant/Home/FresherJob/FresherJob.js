@@ -20,7 +20,9 @@ const FresherJob = () => {
             <p className='font-style'>Today's top 6 Fresher jobs in Bangladesh. Leverage your professional network, <br /> and get hired. New Fresher jobs added daily.</p>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
                 {
-                    array.map((job) => <div class="col">
+                    array.map((job) => <div data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="3000" class="col">
                         <div class="card p-3">
                             <span style={{ backgroundColor: "rgb(198, 168, 200)" }} class="badge w-50 p-2 m-2">{job.jobcata}</span>
                             <div class="card-body">

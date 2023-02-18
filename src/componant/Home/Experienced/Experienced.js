@@ -59,7 +59,8 @@ const Experienced = () => {
             <div className='row'>
                 <div className='col-8'>
                     {
-                        exArray1.map(expart => <div class="card mb-3">
+                        exArray1.map(expart => <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                            data-aos-duration="500" class="card mb-3">
                             <div class="card-body row">
                                 <p><span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-danger">
                                     {expart.time}
@@ -91,7 +92,8 @@ const Experienced = () => {
                     <h5 className='font-style-ex mb-3 border-bottom border-top py-1'>Top 3 IT Companies in Bangladesh</h5>
                     <div className='py-2'>
                         {
-                            companyBd.map(topcom => <Card style={{ width: '20rem', marginBottom: "5px" }}>
+                            companyBd.map(topcom => <Card data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="500" style={{ width: '20rem', marginBottom: "5px" }}>
                                 <a href={topcom.link}><Card.Img variant="top" src={topcom.img} /></a>
                                 <Card.Body>
                                     <Card.Title>{topcom.name}</Card.Title>
@@ -107,7 +109,8 @@ const Experienced = () => {
                     <h5 className='font-style-ex mb-3 border-bottom border-top py-1'>Top 3 IT Companies Worldwide</h5>
                     <div className='py-2'>
                         {
-                            companywd.map(topcom => <Card style={{ width: '20rem', marginBottom: "5px" }}>
+                            companywd.map(topcom => <Card data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                                data-aos-duration="500" style={{ width: '20rem', marginBottom: "5px" }}>
                                 <a href={topcom.link}><Card.Img variant="top" src={topcom.img} /></a>
                                 <Card.Body>
                                     <Card.Title>{topcom.name}</Card.Title>

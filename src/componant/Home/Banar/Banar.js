@@ -3,11 +3,14 @@ import { FaFacebookF, FaGoogle, FaInstagramSquare, FaTwitter } from 'react-icons
 import { Link } from 'react-router-dom';
 import './Banar.css'
 
+
 const Banar = () => {
+
     const [toggle, setToggle] = useState(true)
     return (
         <div id='banar-container' className='d-flex align-items-center justify-content-center'>
-            <div className='text-center'>
+            <div data-aos="fade-up" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" className='text-center'>
                 <p>Find Job, Employment, and Career Opportunities</p>
                 <h1>The Eassiest Way to Get Your New Job</h1>
                 <div>
