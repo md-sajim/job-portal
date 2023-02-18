@@ -15,7 +15,9 @@ const FresherJob = () => {
     ]
     return (
         <div className='container my-5'>
-            <h2 id='font-style'>Fresher Recruitments job</h2>
+            <h2 className='font-style'>Fresher Recruitments job</h2>
+            <hr />
+            <p className='font-style'>Today's top 6 Fresher jobs in Bangladesh. Leverage your professional network, <br /> and get hired. New Fresher jobs added daily.</p>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
                 {
                     array.map((job) => <div class="col">
